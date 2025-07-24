@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Study Timer</h1>
+    <div class="timer-wrapper">
+      <svg class="progress-ring" width="200" height="200">
+        <circle class="bg" cx="100" cy="100" r="90"/>
+        <circle class="progress" cx="100" cy="100" r="90"/>
+      </svg>
+      <div class="time-display" id="time">25:00</div>
+    </div>
+    <div class="buttons">
+      <button onclick="startTimer()">Start</button>
+      <button onclick="pauseTimer()">Pause</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+    <p class="note">Use this to focus for 25 minutes. Take breaks after each session!</p>
+  </div>
+
+  <div id="alertPopup" class="popup">
+    <div class="popup-content">
+      <h2>Time Up!</h2>
+      <p>Great job! Take a short break.</p>
+      <button onclick="closePopup()">Okay!</button>
+    </div>
+  </div>
+
+  <audio id="alertSound" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+
+</body>
+</html>
