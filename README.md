@@ -19,7 +19,7 @@ Welcome to the **Study Timer** – a beautifully designed, distraction-free coun
 
 ## 🚀 Live Demo
 
-👉 Watch the full tutorial on YouTube: [Build Your Own Study Timer in 4 Minutes](https://www.youtube.com/@devdeeks)
+👉 Watch the full tutorial on YouTube: [Build Your Own Study Timer in 4 Minutes](https://www.youtube.com/watch?v=tSXuvKYAiIk)
 
 ---
 
